@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card {
+    min-width: 200px;
+}
+.gifi_img{
+    height: 150px;
+    margin-left: 3px;
+    margin-top: 4px;
+}
+#result{
+    display: flex;
+
+}
+#gifi_result{
+    background-color: antiquewhite;
+    border: 1px solid black;
+    height: 300px;
+    overflow-y: auto;
+    width: 600px;
+    z-index: 100;
+    margin-top: 310px;
+    position: absolute;
+    display: none;
+    cursor: pointer;
+}
+.title{
+    margin-top: 20px;
+    text-align: center;
+}
+.message__box{
+    position: absolute;
+    margin: auto;
+    width: 80%;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 10px;
+    min-height: 380px;
+    position: relative;
+}
+.message__text{
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+    font-size: 18px;
+    margin-bottom: 10px;
+   
+}
+.gifi{
+    width: 50%;
+    position: absolute;
+    bottom: 10px;
+}
+.gifi-search{
+    width: 80%;
+    height: 26px;
+    padding: 2px;
+}
+.gifi-button{
+    width: 100px;
+    height: 33px;
+    padding: 2px;
+    font-size: 15px;
+}
+.add-message{
+    height: 30px;
+    margin-left: 60%;
+    margin-top: 10px;
+    width: 100px;
+}
+#messages{
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+}
